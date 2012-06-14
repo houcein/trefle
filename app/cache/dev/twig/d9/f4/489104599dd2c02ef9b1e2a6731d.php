@@ -41,23 +41,26 @@ class __TwigTemplate_d9f4489104599dd2c02ef9b1e2a6731d extends Twig_Template
         // line 8
         echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("fos_user_security_check"), "html", null, true);
         echo "\" method=\"post\">
+    <div>
+        <img src=\"\">
+    </div>
     <input type=\"hidden\" name=\"_csrf_token\" value=\"";
-        // line 9
+        // line 12
         echo twig_escape_filter($this->env, $this->getContext($context, "csrf_token"), "html", null, true);
         echo "\" />
     <div> 
         <label for=\"username\">";
-        // line 11
+        // line 14
         echo twig_escape_filter($this->env, $this->env->getExtension('translator')->trans("security.login.username", array(), "FOSUserBundle"), "html", null, true);
         echo "</label>
         <input type=\"text\" id=\"username\" name=\"_username\" value=\"";
-        // line 12
+        // line 15
         echo twig_escape_filter($this->env, $this->getContext($context, "last_username"), "html", null, true);
         echo "\" />
     </div>
     <div> 
         <label for=\"password\">";
-        // line 15
+        // line 18
         echo twig_escape_filter($this->env, $this->env->getExtension('translator')->trans("security.login.password", array(), "FOSUserBundle"), "html", null, true);
         echo "</label>
         <input type=\"password\" id=\"password\" name=\"_password\" />
@@ -65,12 +68,12 @@ class __TwigTemplate_d9f4489104599dd2c02ef9b1e2a6731d extends Twig_Template
     <div> 
         <input type=\"checkbox\" id=\"remember_me\" name=\"_remember_me\" value=\"on\" />
         <label for=\"remember_me\">";
-        // line 20
+        // line 23
         echo twig_escape_filter($this->env, $this->env->getExtension('translator')->trans("security.login.remember_me", array(), "FOSUserBundle"), "html", null, true);
         echo "</label>
     </div>
     <input type=\"submit\" id=\"_submit\" name=\"_submit\" value=\"";
-        // line 22
+        // line 25
         echo twig_escape_filter($this->env, $this->env->getExtension('translator')->trans("security.login.submit", array(), "FOSUserBundle"), "html", null, true);
         echo "\" />
 </form>
@@ -89,6 +92,6 @@ class __TwigTemplate_d9f4489104599dd2c02ef9b1e2a6731d extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  72 => 22,  67 => 20,  59 => 15,  53 => 12,  49 => 11,  44 => 9,  40 => 8,  37 => 7,  31 => 5,  29 => 4,  26 => 3,);
+        return array (  75 => 25,  70 => 23,  62 => 18,  56 => 15,  52 => 14,  47 => 12,  40 => 8,  37 => 7,  31 => 5,  29 => 4,  26 => 3,);
     }
 }
